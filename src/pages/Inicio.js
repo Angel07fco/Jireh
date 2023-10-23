@@ -222,7 +222,7 @@ export default function Inicio() {
         </div>
 
         <div className='contacto'>
-          <h1 className='title'>Productos</h1>
+          <h1 className='title'>Contactanos</h1>
           <div className='contacto-section'>
             <div className='formulario'>
               <TextField
@@ -265,7 +265,7 @@ export default function Inicio() {
       </div>
 
       <Footer />
-      
+
     </div>
   )
 }

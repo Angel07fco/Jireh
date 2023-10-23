@@ -1,19 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 .piedepagina {
-    width: 100%;
+    width: 99.8%;
     height: 350px;
     bottom: 0;
     border: 2px solid black;
+    background-color: #00ACC1;
+}
+
+.subpie1 h5,
+.subpie2 h5,
+.subpie3-1 h5,
+.subpie h5 {
+  margin: 0;
 }
 
 .piedepagina .pie-1 {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     height: 250px;
+    display: grid;
+    grid-gap: 8%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  250px;
+}
+
+.piedepagina .pie-1 .subpie1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.piedepagina .pie-1 .subpie1 img {
+    width: 180px;
+    height: 70px;
+}
+
+.piedepagina .pie-1 .subpie1 h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.piedepagina .pie-1 .subpie1 div img {
+    width: 40px;
+    height: 40px;
+}
+
+.piedepagina .pie-1 .subpie1 div .face {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.piedepagina .pie-1 .subpie2 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.piedepagina .pie-1 .subpie2 .title {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piedepagina .pie-1 .subpie2 .contacto {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.piedepagina .pie-1 .subpie3 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.piedepagina .pie-1 .subpie3 .button {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #FFC400;
+    color: #000000;
+}
+
+.piedepagina .pie-1 .subpie3 .subpie3-1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.piedepagina .pie-1 .subpie3 .subpie3-1 h5 {
+    margin-top: 20px;
 }
 
 .piedepagina .pie-2 {
     width: 100%;
+    margin-left: -2px;
     border: 2px solid black;
     height: 100px;
+    background-color: #B0BEC5;
+}
+
+.piedepagina .pie-2 .subpie {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.piedepagina .pie-2 div h5 {
+    margin-top: 10px;
+}
+
+.piedepagina .pie-2 .subpie .subpie2 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
