@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.piedepagina {
+    width: 100%;
+    height: 350px;
+    bottom: 0;
+    border: 2px solid black;
+}
+
+.piedepagina .pie-1 {
+    width: 100%;
+    height: 250px;
+}
+
+.piedepagina .pie-2 {
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+}

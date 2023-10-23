@@ -6,7 +6,7 @@ import Citas from '../pages/Citas';
 import Nosotros from '../pages/Nosotros';
 import Contacto from '../pages/Contacto';
 import Carrito from '../pages/Carrito';
-import Cuenta from '../pages/Cuenta';
+import Perfil from '../pages/Perfil';
 import Crearcuenta from '../pages/Crearcuenta';
 import Login from '../pages/Login';
 import Default from '../pages/Default';
@@ -22,7 +22,7 @@ function Rutas() {
           <Route path='nosotros' element={<Nosotros />} />
           <Route path='contacto' element={<Contacto />} />
           <Route path='carrito' element={<Carrito />} />
-          <Route path='cuenta' element={<Cuenta />} />
+          <Route path='perfil' element={<Perfil />} />
           <Route path='crearcuenta' element={<Crearcuenta />} />
           <Route path='login' element={<Login />} />
           <Route path='*' element={<Default />} />

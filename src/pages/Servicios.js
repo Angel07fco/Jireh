@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../components/Menu';
 
 export default function Servicios() {
   return (
-    <div>Servicios</div>
+    <div>
+      <Menu />
+    </div>
   )
 }

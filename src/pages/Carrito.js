@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../components/Menu';
 
 export default function Carrito() {
   return (
-    <div>Carrito</div>
+    <div>
+      <Menu />
+    </div>
   )
 }
