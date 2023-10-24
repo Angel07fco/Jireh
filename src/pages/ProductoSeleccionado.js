@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import '../assets/styles/ProductoSeleccionado.css';
 import Peluqueria from '../assets/images/peluqueria.jpeg';
 import Button from '@mui/material/Button';
+import Footer from '../components/Footer';
 
 export default function ProductoSeleccionado() {
   return (
@@ -43,8 +44,8 @@ export default function ProductoSeleccionado() {
             <div>
               <h2>Precio: $000.00</h2>
               <div className='seccion-buttons'>
-                <Button className='button-cita' variant="contained">Agregar al carrito</Button>
-                <Button className='button-cita' variant="contained">Comprar</Button>
+                <Button href='/carrito' className='button-pro1' variant="contained">Agregar al carrito</Button>
+                <Button className='button-pro2' variant="outlined">Comprar</Button>
               </div>
             </div>
             <div>
@@ -61,8 +62,59 @@ export default function ProductoSeleccionado() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dicta tempore consequatur neque labore eaque obcaecati totam. Magni quo sapiente adipisci quibusdam sint? Laboriosam, vero accusantium esse rem vel totam.</p>
           </div>
         </div>
-        
+
+        <div className='productos'>
+          <h1 className='title'>Testimonios</h1>
+          <div className='productos-sec'>
+            <div className='direccionales'>
+              <span class="material-symbols-outlined">arrow_circle_left</span>
+            </div>
+            <div className='tarjetas'>
+              <img src={Peluqueria} alt="Ícono de inicio" />
+              <div>
+                <h5>Descripción</h5>
+                <p>En especial este servicio me gusto mucho, ya que en todo momento fui atendido de la mejor manera, me explicaron algunas medidas y consideraciones a tomar con mi mascota.</p>
+                <div>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                </div>
+                <div className='user'>
+                  <span class="material-symbols-outlined">account_circle</span>
+                  <p>Angel MH</p>
+                </div>
+              </div>
+            </div>
+            <div className='tarjetas'>
+              <img src={Peluqueria} alt="Ícono de inicio" />
+              <div>
+                <h5>Descripción</h5>
+                <p>En especial este servicio me gusto mucho, ya que en todo momento fui atendido de la mejor manera, me explicaron algunas medidas y consideraciones a tomar con mi mascota.</p>
+                <div>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                </div>
+                <div className='user'>
+                  <span class="material-symbols-outlined">account_circle</span>
+                  <p>Angel MH</p>
+                </div>
+              </div>
+            </div>
+            <div className='direccionales'>
+              <span class="material-symbols-outlined">arrow_circle_right</span>
+            </div>
+          </div>
+        </div>
+      
       </div>
+
+      <Footer />
+
     </div>
   )
 }

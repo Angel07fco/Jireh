@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contenido-carrito {
+    margin: 0;
+    padding: 0;
+}
+
+.micarrito {
+    margin-top: 200px;
+}
+
+.micarrito .title {
+    text-align: center;
+}
+
+.micarrito .contenido-carrito {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10%;
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 55% 31%;
+    grid-template-rows: 600px;
+}
+
+.micarrito .contenido-carrito .total-carrito {
+    width: 100%;
+    height: 570px;
+    border: 1px solid black;
+}
+
+.micarrito .contenido-carrito .total-carrito h4 {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+.micarrito .contenido-carrito .total-carrito p {
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 10%;
+    color: black;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total {
+    width: 80%;
+    margin-left: 10%;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .subtotal {
+    width: 100%;
+    height: 15%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .subtotal h5 {
+    margin-left: 5%;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .envio {
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 100%;
+    padding-top: 10px;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .envio1 {
+    margin-left: 15%;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .envio1 p {
+    color: black;
+}
+
+.micarrito .contenido-carrito .total-carrito .button {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #00c853;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .envio div h5 {
+    margin-top: 10px;
+}
+
+.micarrito .contenido-carrito .total-carrito .calculo-total .envio .selecteds {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .list-productos {
+    width: 100%;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .opciones {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .opciones div {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .seccion-contenido {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .seccion-contenido div {
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .seccion-contenido div img {
+    width: 100px;
+    height: 100px;
+}
+
+.micarrito .contenido-carrito .list-productos .producto-lis .button-carrito {
+    width: 200px;
+    height: 25px;
+    margin-left: 70%;
+    margin-top: 5px;
+    background-color: #FFC400;
+    color: black;
+}

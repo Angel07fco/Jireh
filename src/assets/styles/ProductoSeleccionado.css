@@ -84,11 +84,26 @@ p {
 }
 
 .seleccionado-pro .servicio-informacion .informacion .seccion-buttons {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seleccionado-pro .servicio-informacion .informacion .seccion-buttons .button-pro1 {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #00C853;
+}
+
+.seleccionado-pro .servicio-informacion .informacion .seccion-buttons .button-pro2 {
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid #00C853;
+    color: #00C853;
 }
 
 .seleccionado-pro .servicio-informacion .informacion p {
