@@ -104,11 +104,17 @@
 }
 
 .menu .links {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: .85em;
     color: black;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85em;
+}
+
+.menu .linkbutton  {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+    margin-top: -2px;
 }
 
 p {

@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import Inicio from '../pages/Inicio';
 import Servicios from '../pages/Servicios';
+import ServicioSeleccionado from '../pages/ServicioSeleccionado';
 import Tienda from '../pages/Tienda';
+import ProductoSeleccionado from '../pages/ProductoSeleccionado';
 import Citas from '../pages/Citas';
 import Nosotros from '../pages/Nosotros';
 import Contacto from '../pages/Contacto';
@@ -17,7 +19,9 @@ function Rutas() {
       <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='servicios' element={<Servicios />} />
+          <Route path='servicio' element={<ServicioSeleccionado />} />
           <Route path='tienda' element={<Tienda />} />
+          <Route path='producto' element={<ProductoSeleccionado />} />
           <Route path='citas' element={<Citas />} />
           <Route path='nosotros' element={<Nosotros />} />
           <Route path='contacto' element={<Contacto />} />

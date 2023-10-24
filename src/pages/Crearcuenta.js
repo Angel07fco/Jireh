@@ -1,10 +1,10 @@
 import React from 'react';
-import Menu from '../components/Menu';
+import Navbar from '../components/Navbar';
 
 export default function Crearcuenta() {
   return (
     <div>
-      <Menu />
+      <Navbar />
     </div>
   )
 }

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contenido-cita {
+    margin: 0;
+    padding: 0;
+}
+
+.agendacita {
+    margin-top: 200px;
+}
+
+.agendacita .title {
+    text-align: center;
+}
+
+.agendacita .agendacita-contenido {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 30% 55%;
+    grid-template-rows: 400px;
+}
+
+.agendacita .agendacita-contenido .texto {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.agendacita .agendacita-contenido .agendacita-formulario {
+    padding: 20px;
+    padding-left: 10%;
+}
+
+.agendacita .agendacita-contenido .agendacita-formulario .dividir-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.agendacita .agendacita-contenido .agendacita-formulario .dividir-formulario .inputs-cita {
+    margin-top: 10px;
+}
+
+.agendacita .agendacita-contenido .agendacita-formulario .dividir-formulario div {
+    width: 90%;
+}
+
+.agendacita .agendacita-contenido .agendacita-formulario .button-cita {
+    margin-top: 10px;
+    width: 90%;
+    background-color: #00C853;
+}

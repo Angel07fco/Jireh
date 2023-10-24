@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../components/Menu';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../assets/styles/Inicio.css';
 import { useNavigate } from "react-router-dom";
@@ -13,7 +13,8 @@ import LimpiezaDental from '../assets/images/servicios/limpiezadental.jpeg';
 import Cirugias from '../assets/images/servicios/cirgugias.png';
 import Ultrasonido from '../assets/images/servicios/ultrasonido.jpg';
 import Hospitalizacion from '../assets/images/servicios/hospitalizacion.png';
-import Logo from '../assets/images/logo.png'
+import Logo from '../assets/images/logo.png';
+import Slider1 from '../assets/images/1.jpg'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
@@ -28,15 +29,20 @@ export default function Inicio() {
   return (
     <div className='home'>
 
-      <Menu />
+      <Navbar />
 
-      <div className='contenido'>
+      <div className='contenido-inicio'>
 
         <div className='section'>
-          <div className='slider'></div>
+          <div className='slider'>
+          <img src={Slider1} alt="Slider 1" />
+            <div className='indicadores'>
+              <h5>Slider</h5>
+            </div>
+          </div>
           <div className='destacados'>
-            <div className='promociones'></div>
-            <div className='noticias'></div>
+            <div className='promociones'>Por el momentos no hay promociones u ofertas.</div>
+            <div className='noticias'>Aun no esta disponible la sección de noticias.</div>
           </div>
         </div>
 
@@ -114,15 +120,15 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className='productos'>
+        <div className='productos-inicio'>
           <h1 className='title'>Productos</h1>
-          <div className='productos-sec'>
+          <div className='productos-secc'>
             <div className='direccionales'>
               <span class="material-symbols-outlined">arrow_circle_left</span>
             </div>
             <div className='tarjetas'>
               <div className='tarjeta-producto'>
-                <img src={Cirugias} alt="Ícono de inicio" />
+                <img src={LimpiezaDental} alt="Ícono de inicio" />
                 <div>
                   <h5>Producto</h5>
                   <h5>$000.00</h5>
@@ -131,7 +137,7 @@ export default function Inicio() {
             </div>
             <div className='tarjetas'>
               <div className='tarjeta-producto'>
-                <img src={Cirugias} alt="Ícono de inicio" />
+                <img src={LimpiezaDental} alt="Ícono de inicio" />
                 <div>
                   <h5>Producto</h5>
                   <h5>$000.00</h5>
@@ -140,7 +146,7 @@ export default function Inicio() {
             </div>
             <div className='tarjetas'>
               <div className='tarjeta-producto'>
-                <img src={Cirugias} alt="Ícono de inicio" />
+                <img src={LimpiezaDental} alt="Ícono de inicio" />
                 <div>
                   <h5>Producto</h5>
                   <h5>$000.00</h5>
@@ -159,7 +165,7 @@ export default function Inicio() {
             <h5>Calidad, compromiso y cuiado de tu mascota.</h5>
           </div>
           <div className='formulario'>
-          <div>
+            <div>
               <TextField
                 className='input1'
                 required
@@ -217,7 +223,7 @@ export default function Inicio() {
                 variant="standard"
               />
             </div>
-            <Button className='button' variant="contained">Agendar cita</Button>
+            <Button href='/citas' className='button' variant="contained">Agendar cita</Button>
           </div>
         </div>
 
@@ -246,7 +252,7 @@ export default function Inicio() {
                 id="standard-size-normal"
                 variant="standard"
               />
-              <Button className='button' variant="contained">Enviar</Button>
+              <Button href='/contacto' className='button' variant="contained">Enviar</Button>
             </div>
             <div className='ubicacion'>
               <img src={Logo} alt="Ícono de inicio" />

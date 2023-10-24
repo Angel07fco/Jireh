@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         <div className='subpie3'>
           <div>
-            <Button className='button' variant="contained">Agendar tu cita</Button>
+            <Button href='/citas' className='button' variant="contained">Agendar tu cita</Button>
           </div>
           <div className='subpie3-1'>
             <h5>Blog</h5>

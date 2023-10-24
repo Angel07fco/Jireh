@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contenido-contacto {
+    margin: 0;
+    padding: 0;
+}
+
+.contacto {
+   width: 100%;
+   margin-top: 200px;
+}
+
+.contacto .title {
+    text-align: center;
+}
+
+.contacto-contenido {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.contacto-contenido .cards {
+    margin-top: 120px;
+    width: 100%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 45% 50%;
+    grid-template-rows: 500px;
+    margin-bottom: 50px;
+}
+
+.contacto-contenido .cards-contacto .cards-phone {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacto-contenido .cards-contacto .cards-phone div {
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-contenido .cards-contacto .cards-phone div .cricle-chat {
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.contacto-contenido .cards-contacto .cards-phone div .cricle-chat .material-symbols-outlined {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto-contenido .cards-contacto .cards-phone div h5 {
+    margin-bottom: 20px;
+}
+
+.contacto-contenido .cards-contacto .cards-ubi {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-contenido .cards-contacto .cards-ubi h5 {
+    margin-bottom: 20px;
+}
+
+.contacto-contenido .cards-contacto .cards-ubi .cricle-ubi {
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.contacto-contenido .cards-contacto .cards-ubi .cricle-ubi .material-symbols-outlined {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto-contenido .cards .formulario-contacto {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-contenido .cards .formulario-contacto .circle {
+    margin-top: -42.5px;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.contacto-contenido .cards .formulario-contacto .circle .material-symbols-outlined {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto-contenido .cards .formulario-contacto .campos {
+    width: 80%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.contacto-contenido .cards .formulario-contacto .campos .campo-input {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.contacto-contenido .cards .formulario-contacto .campos .button-contacto {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #00C853;
+}

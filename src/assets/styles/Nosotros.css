@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nosotros {
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-nosotros {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.contenido-nosotros .title {
+    text-align: center;
+}
+
+.contenido-nosotros .section-nosotros {
+    width: 80%;
+    margin-left: 18%;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 35% 40%;
+    grid-template-rows: 300px;
+}
+
+.contenido-nosotros .section-nosotros img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-nosotros .section-nosotros .section-eslogan{
+    padding: 40px;
+}
+
+.contenido-nosotros .section-nosotros .section-eslogan p{
+    color: black;
+}
+
+.contenido-nosotros .section-nosotros h1{
+    margin-top: 40px;
+    color: black;
+}
+
+.contenido-nosotros .section-nosotros p{
+    color: black;
+}
+
+.valores-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.nosotros-valores {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 300px;
+}
+
+.nosotros-valores .nosotros-indicadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-valores .nosotros-indicadores .material-symbols-outlined {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.nosotros-valores .nosotros-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 40% 40%;
+    border: 1px solid black;
+}
+
+.nosotros-valores .nosotros-card .card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-valores .nosotros-card .card-title img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    ;
+}
+
+.nosotros-valores .nosotros-card .card-info{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.nosotros-valores .nosotros-card p{
+    color: black;
+}
+
+.equipo-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.equipodetrabajo {
+    width: 70%;
+    margin-left: 15%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 35% 60%;
+    grid-template-rows: 230px;
+}
+
+.equipodetrabajo .equipo-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipodetrabajo .equipo-perfil img {
+    width: 150px;
+    height: 150px;
+}
+
+.equipodetrabajo .equipo-perfil h5 {
+    font-weight: 500;
+    color: black;
+}
+
+.equipodetrabajo .equipo-perfil p {
+    color: black;
+}
+
+.equipodetrabajo .equipo-informacion {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte1 {
+    width: 90%;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte1 .checc {
+    display: flex;
+    flex-direction: row;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte1 .checc .material-symbols-outlined {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte1 .texto {
+    width: 90%;
+    margin-left: 8%;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte1 .texto p {
+    color: black;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte2 {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte2 .checc {
+    display: flex;
+    flex-direction: row;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte2 .checc .material-symbols-outlined {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte2 .texto {
+    width: 90%;
+    margin-left: 8%;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.equipodetrabajo .equipo-informacion .info-parte2 .texto p {
+    color: black;
+}
+
+.equipo-ubicacion {
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 200px;
+}
+
+.equipo-ubicacion .ubi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-ubicacion .ubi h5{
+    margin-top: 10px;
+}
+
+.equipo-ubicacion .ubi div{
+    margin-top: 10px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-ubicacion .mapa {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
