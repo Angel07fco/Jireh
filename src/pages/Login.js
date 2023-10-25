@@ -12,7 +12,7 @@ export default function Login() {
       <Navbar />
 
       <div className='formulario-login'>
-        <h1 className='title'>Crear una cuenta</h1>
+        <h1 className='title'>Iniciar Sesión</h1>
       </div>
 
       <div className='form'>
@@ -49,7 +49,7 @@ export default function Login() {
       </div>
 
       <div className='form'>
-        <Button fullWidth className='button-registro' variant="outlined">Registrate con Google</Button>
+        <Button fullWidth className='button-registro1' variant="outlined">Registrate con Google</Button>
       </div>
 
     <Footer />    

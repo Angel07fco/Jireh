@@ -49,6 +49,7 @@ export default function Crearcuenta() {
               fullWidth
               required
               label="Teléfono"
+              placeholder='Déjanos tu número de teléfono para poder contactarte'
               id="standard-size-normal"
               variant="standard"
             />
@@ -78,7 +79,7 @@ export default function Crearcuenta() {
             <TextField
               fullWidth
               required
-              label="Confirmas Contraseña"
+              label="Confirmar Contraseña"
               id="standard-size-normal"
               variant="standard"
             />
@@ -96,7 +97,7 @@ export default function Crearcuenta() {
 
         <div className='ya'>
           <h5>Ya tienes una cuenta?</h5>
-          <a href='/login'>Inicia sesión</a>
+          <a className='' href='/login'>Inicia sesión</a>
         </div>
 
         <div className='terminos'>

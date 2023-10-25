@@ -89,7 +89,12 @@ p {
     flex-direction: column;
 }
 
+.seleccionado-ser .servicio-informacion .informacion .button {
+    background-color: #00c853;
+}
+
 .seleccionado-ser .servicio-informacion .informacion p {
     color: #b0bec5;
     text-align: justify;
+    margin-bottom: 50px;
 }

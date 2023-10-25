@@ -111,9 +111,10 @@ export default function Inicio() {
                 </li>
                 <h5>Hospitalizacion</h5>
               </div>
-              <div className='varios'>
+              <div className='varios1'>
                 <li onClick={goToServicios}>
-                  <img src={Urgencias} alt="Ver mas" /> 
+                  <span class="material-symbols-outlined">add</span>
+                  <h5>Ver mas</h5>
                 </li>
               </div>
             </div>

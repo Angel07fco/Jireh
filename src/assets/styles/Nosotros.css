@@ -52,8 +52,8 @@ p {
 }
 
 .contenido-nosotros .section-nosotros img {
-    width: 100%;
-    height: 100%;
+    width: 430px;
+    height: 280px;
 }
 
 .contenido-nosotros .section-nosotros .section-eslogan{
@@ -143,6 +143,7 @@ p {
     grid-gap: 5%;
     grid-template-columns: 35% 60%;
     grid-template-rows: 230px;
+    margin-bottom: 150px;
 }
 
 .equipodetrabajo .equipo-perfil {
@@ -272,4 +273,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.equipo-ubicacion .mapa img{
+    width: 700px;
+    height: 200px;
 }

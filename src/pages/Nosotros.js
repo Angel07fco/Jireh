@@ -17,7 +17,7 @@ export default function Nosotros() {
         <h1 className='title'>Acerca de JIREH</h1>
         <div className='section-nosotros'>
           <div>
-            <img src={Animales} alt="Ícono de inicio" />
+            <img src={Etica} alt="Ícono de inicio" />
           </div>
           <div className='section-eslogan'>
             <h1>Somos tu mejor opción</h1>
@@ -137,7 +137,7 @@ export default function Nosotros() {
           </div>
         </div>
         <div className='mapa'>
-          Mapa de la ubicacion den google maps
+          Mapa de google maps de la ubicación de JIREH
         </div>
       </div>
 

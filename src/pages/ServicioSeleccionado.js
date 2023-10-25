@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import '../assets/styles/ServicioSeleccionado.css';
 import Estetica from '../assets/images/servicios/estetica.jpg';
 import Peluqueria from '../assets/images/peluqueria.jpeg';
+import Button from '@mui/material/Button';
 
 export default function ServicioSeleccionado() {
   return (
@@ -49,6 +50,9 @@ export default function ServicioSeleccionado() {
             <div>
               <h2>Precios</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dicta tempore consequatur neque labore eaque obcaecati totam. Magni quo sapiente adipisci quibusdam sint? Laboriosam, vero accusantium esse rem vel totam.</p>
+            </div>
+            <div>
+              <Button fullWidth href='/citas' className='button' variant="contained">Agendar cita</Button>
             </div>
           </div>
           <div className='informacion'>

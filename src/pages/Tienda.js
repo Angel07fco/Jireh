@@ -4,7 +4,7 @@ import '../assets/styles/Tienda.css';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Product from '../assets/images/servicios/domicilio.webp';
+import Product from '../assets/images/servicios/urgencia.jpg';
 import Footer from '../components/Footer';
 import { useNavigate } from "react-router-dom";
 
