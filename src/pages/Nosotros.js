@@ -21,7 +21,7 @@ export default function Nosotros() {
           </div>
           <div className='section-eslogan'>
             <h1>Somos tu mejor opción</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dicta tempore consequatur neque labore eaque obcaecati totam. Magni quo sapiente adipisci quibusdam sint? Laboriosam, vero accusantium esse rem vel totam.</p>
+            <p>En Clínica Veterinaria Jireh, somos un equipo de amantes de los animales que comparten una pasión por brindar el mejor cuidado posible.</p>
           </div>
         </div>
         <div className='section-nosotros'>
@@ -30,9 +30,7 @@ export default function Nosotros() {
           </div>
           <div className='section-eslogan'>
             <h1>Historia de JIREH</h1>
-            <p>
-              La historia de la Clínica Veterinaria "Jireh" se remonta a su fundador, un apasionado amante de los animales y el significado bíblico del nombre "JIREH" (que significa "Dios proveerá"), decidió establecer una clínica veterinaria que reflejara sus valores y principios.
-            </p>
+            <p>La historia de la Clínica Veterinaria "Jireh" se remonta a su fundador, un apasionado amante de los animales y el significado bíblico del nombre "JIREH" (que significa "Dios proveerá").</p>
           </div>
         </div>
       </div>

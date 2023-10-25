@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.perfil {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contenido-per {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 1100px;
+}
+
+.contenido-per .perfil1 .opciones-perfil{
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-per .perfil1 .opciones-perfil div {
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.contenido-per .perfil1 .foto-perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-per .perfil1 .foto-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contenido-per .perfil2 h5 {
+    color: black;
+    text-align: justify;
+}
+
+.contenido-per .perfil2 .formulario-perfil {
+    width: 100%;
+    height: 820px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos {
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos .campo1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos .campo1 h5 {
+    margin-bottom: 10px;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos .campo1 .input-campo1 {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos .campo1 .input-campo1 p {
+    color: black;
+    margin-left: 20px;
+}
+
+.contenido-per .perfil2 .formulario-perfil .campos .campo1 .input-campo1 .material-symbols-outlined {
+    color: black;
+    margin-right: 20px;
+}

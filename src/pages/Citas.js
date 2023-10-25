@@ -14,8 +14,8 @@ export default function Citas() {
         <h1 className='title'>Agenda tu cita</h1>
         <div className='agendacita-contenido'>
           <div className='texto'>
-            <h5>Haz tu cita totalmente en linea y recibe recomendaciones e información proporcionada por la clinica, ádemas de comentarios y experiencias de otros usuarios.</h5>
-            <h4>Tu cita sera confirmada horas o dias antes ¡Tu decides!</h4>
+            <h5>Haz tu cita totalmente en línea y recibe recomendaciones e información proporcionada por la clínica, además de comentarios y experiencias de otros usuarios.</h5>
+            <h4>Tú cita será confirmada horas o días antes ¡Tú decides!</h4>
           </div>
           <div className='agendacita-formulario'>
             <div className='dividir-formulario'>
@@ -91,7 +91,7 @@ export default function Citas() {
                 />
               </div>
             </div>
-            <Button className='button-cita' variant="contained">Agendar cita</Button>
+            <Button href='/login' className='button-cita' variant="contained">Agendar cita</Button>
           </div>
         </div>
       </div>

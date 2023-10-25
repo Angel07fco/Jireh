@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.crearcuenta {
+    margin: 0;
+    padding: 0;
+}
+
+.formulario-crearcuenta{
+    margin-top: 200px;
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+.formulario-crearcuenta h1{
+   text-align: center;
+}
+
+.formulario-crearcuenta p{
+    text-align: justify;
+    color: black;
+}
+
+.formulario-crearcuenta .formik{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 45% 45%;
+}
+
+.formulario-crearcuenta .terminos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formulario-crearcuenta .terminos .button-crear{
+    background-color: #00c853;
+}
+
+.formulario-crearcuenta .terminos .button-registro{
+    border: 1px solid #00c853;
+    color: #00c853;
+    margin-bottom: 20px;
+}
+
+.formulario-crearcuenta .ya{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.formulario-crearcuenta .ya a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #00acc1;
+}

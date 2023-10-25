@@ -11,6 +11,7 @@ import Carrito from '../pages/Carrito';
 import Perfil from '../pages/Perfil';
 import Crearcuenta from '../pages/Crearcuenta';
 import Login from '../pages/Login';
+import Recuperar from '../pages/Recuperar';
 import Default from '../pages/Default';
 
 function Rutas() {
@@ -29,6 +30,7 @@ function Rutas() {
           <Route path='perfil' element={<Perfil />} />
           <Route path='crearcuenta' element={<Crearcuenta />} />
           <Route path='login' element={<Login />} />
+          <Route path='recuperar' element={<Recuperar />} />
           <Route path='*' element={<Default />} />
       </Routes>
     </div>

@@ -147,7 +147,7 @@ export default function Servicios() {
             <img src={Consulta} alt="Ícono de inicio" />
             <div>
               <h5>Descripción</h5>
-              <p>En especial este servicio me gusto mucho, ya que en todo momento fui atendido de la mejor manera, me explicaron algunas medidas y consideraciones a tomar con mi mascota.</p>
+              <p>La atención que recibimos en Clínica Veterinaria Jireh es inigualable. Siempre nos hacen sentir como parte de su familia.</p>
               <div>
                 <span class="material-symbols-outlined">star</span>
                 <span class="material-symbols-outlined">star</span>
@@ -165,7 +165,7 @@ export default function Servicios() {
             <img src={Consulta} alt="Ícono de inicio" />
             <div>
               <h5>Descripción</h5>
-              <p>En especial este servicio me gusto mucho, ya que en todo momento fui atendido de la mejor manera, me explicaron algunas medidas y consideraciones a tomar con mi mascota.</p>
+              <p>No puedo agradecer lo suficiente a su equipo por salvar a mi mascota. Son verdaderos héroes.</p>
               <div>
                 <span class="material-symbols-outlined">star</span>
                 <span class="material-symbols-outlined">star</span>

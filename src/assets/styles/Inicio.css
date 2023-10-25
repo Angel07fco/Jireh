@@ -65,6 +65,12 @@ p {
     margin-top: -40%;
 }
 
+.section .slider .indicadores h5 {
+    text-align: center;
+    background-color: #00C853;
+    color: black;
+}
+
 .section .destacados{
     display: grid;
     grid-gap: 10%;

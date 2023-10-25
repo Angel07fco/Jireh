@@ -37,7 +37,7 @@ export default function Inicio() {
           <div className='slider'>
           <img src={Slider1} alt="Slider 1" />
             <div className='indicadores'>
-              <h5>Slider</h5>
+              <h5>Bienvenidos a la Clínica Veterinaria Jireh, donde la salud y la felicidad de tus mascotas son nuestra prioridad número uno.</h5>
             </div>
           </div>
           <div className='destacados'>
@@ -170,6 +170,7 @@ export default function Inicio() {
                 className='input1'
                 required
                 label="Nombre(s)"
+                placeholder='Por favor, ingresa tu(s) nombre(s)'
                 id="standard-size-normal"
                 variant="standard"
               />

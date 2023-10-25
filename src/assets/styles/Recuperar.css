@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.recuperar {
+    margin: 0;
+    padding: 0;
+}
+
+.formulario-recuperar {
+    margin-top: 200px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.formulario-recuperar .title {
+    text-align: center;
+}
+
+.form{
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 30px;
+}
+
+.respuesta-form {
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .button-crear{
+    background-color: #00c853;
+    color: white;
+}
+
+.form .button-registro{
+    border: 1px solid #00c853;
+    color: #00c853;
+    margin-bottom: 20px;
+}
+
+.form-en{
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.separar {
+    margin-bottom: 50px;
+}
