@@ -110,7 +110,7 @@ export default function Carrito() {
               </div>
             </div>
             <p>Selecciona mas de $500 para areas ceda de la clinica o $1000 para areas mas lejanas y obten envio gratis.</p>
-            <Button className="button" variant="contained">Finalizar compra</Button>
+            <Button className='button' variant="contained" disabled>Finalizar compra</Button>
           </div>
        
         </div>

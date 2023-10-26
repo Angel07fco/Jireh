@@ -152,7 +152,7 @@ const Navbar = () => {
                         </Menu>
                     </li>
                     <li onClick={goToCitas}>
-                        <Button className="linkbutton" id="basic-button">Citas</Button>
+                        <Button className="linkbuttoncita" id="basic-button">Citas</Button>
                     </li>
                     <li onClick={goToNosotros}>
                     <Button className="linkbutton" id="basic-button">Nosotros</Button>

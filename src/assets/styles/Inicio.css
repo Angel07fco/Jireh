@@ -260,6 +260,9 @@ p {
     margin-top: 10px;
     width: 90%;
     background-color: #00C853;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* --------------- Seccion de contactanos --------------- */
