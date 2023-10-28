@@ -16,6 +16,11 @@ import Default from '../pages/Default';
 
 import Admin from '../pages/Admin/Admin';
 import CitasA from '../pages/Admin/Citas';
+import ClientesA from '../pages/Admin/Clientes';
+import ServiciosA from '../pages/Admin/Servicios';
+import TiendaA from '../pages/Admin/Tienda';
+import VentasA from '../pages/Admin/Ventas';
+import DefaultA from '../pages/Admin/Default';
 
 function Rutas() {
   return (
@@ -34,12 +39,15 @@ function Rutas() {
           <Route path='crearcuenta' element={<Crearcuenta />} />
           <Route path='login' element={<Login />} />
           <Route path='recuperar' element={<Recuperar />} />
+          <Route path='*' element={<Default />} />
 
           <Route path='admin' element={<Admin />} />
           <Route path='admin/citas' element={<CitasA />} />
-
-
-          <Route path='*' element={<Default />} />
+          <Route path='admin/clientes' element={<ClientesA />} />
+          <Route path='admin/servicios' element={<ServiciosA />} />
+          <Route path='admin/tienda' element={<TiendaA />} />
+          <Route path='admin/ventas' element={<VentasA />} />
+          <Route path='admin/*' element={<DefaultA />} />
       </Routes>
     </div>
   );
