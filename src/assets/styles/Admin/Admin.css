@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.admin-container {
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoA {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 500px;
+    border: 1px solid blue;
+}
+
+.contenidoA h1 {
+    text-align: center;
+}
+
+.contenidoA .esloganA {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 35% 55%;
+    grid-template-rows: 300px;
+}
+
+.contenidoA .esloganA .imageE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoA .esloganA .imageE .imageSeleccionada {
+    width: 100%;
+    height: 250px;
+    border: 1px dashed black;
+}
+
+.contenidoA .esloganA .imageE .imageSeleccionada img {
+    width: 100%;
+    height: 250px;
+}
+
+.contenidoA .esloganA .imageE .inputImage {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00c853;
+    cursor: pointer;
+}
+
+.contenidoA .esloganA .imageE .inputImage label {
+    cursor: pointer;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE {
+    width: 100%;
+    height: 220px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
