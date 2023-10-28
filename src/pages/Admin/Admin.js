@@ -50,10 +50,10 @@ function Admin() {
           <div className='textoE'>
             <h2>Eslogan o frase llamativa</h2>
             <div className='textoContenidoE'>
-              <div>
-
+              <div className='frase'>
+                <h5>En Clínica Veterinaria Jireh, somos un equipo de amantes de los animales que comparten una pasión por brindar el mejor cuidado posible.</h5>
               </div>
-              <div>
+              <div className='fraseButton'>
 
               </div>
             </div>
