@@ -14,6 +14,9 @@ import Login from '../pages/Login';
 import Recuperar from '../pages/Recuperar';
 import Default from '../pages/Default';
 
+import Admin from '../pages/Admin/Admin';
+import CitasA from '../pages/Admin/Citas';
+
 function Rutas() {
   return (
     <div>
@@ -31,6 +34,11 @@ function Rutas() {
           <Route path='crearcuenta' element={<Crearcuenta />} />
           <Route path='login' element={<Login />} />
           <Route path='recuperar' element={<Recuperar />} />
+
+          <Route path='admin' element={<Admin />} />
+          <Route path='admin/citas' element={<CitasA />} />
+
+
           <Route path='*' element={<Default />} />
       </Routes>
     </div>

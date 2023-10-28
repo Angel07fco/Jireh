@@ -36,20 +36,21 @@ export default function Login() {
       </div>
 
       <div className='form'>
-        <Button fullWidth className='button-crear' variant="contained">Crear Cuenta</Button>
+        <Button fullWidth className='button-crear' variant="contained">Iniciar sesion</Button>
       </div>
 
       <div className='form-en'>
+        <a href='/admin'>Ir a página Administradora</a>
         <a href='/recuperar'>Recuperar teléfono o contraseña?</a>
         <a href='/crearcuenta'>No tienes una cuenta? Crear una cuenta</a>
       </div>
 
       <div className='form'>
-        <Button fullWidth className='button-registro' variant="outlined">Registrate con Facebook</Button>
+        <Button fullWidth className='button-registro' variant="outlined">Iniciar con Facebook</Button>
       </div>
 
       <div className='form'>
-        <Button fullWidth className='button-registro1' variant="outlined">Registrate con Google</Button>
+        <Button fullWidth className='button-registro1' variant="outlined">Iniciar con Google</Button>
       </div>
 
     <Footer />    
