@@ -37,7 +37,7 @@ p {
     width: 90%;
     margin-left: 5%;
     margin-top: 10%;
-    height: 500px;
+    height: 3000px;
     border: 1px solid blue;
 }
 
@@ -82,11 +82,17 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #00c853;
+    color: white;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
 .contenidoA .esloganA .imageE .inputImage label {
     cursor: pointer;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE div {
+    border: 1px solid black;
 }
 
 .contenidoA .esloganA .textoE .textoContenidoE {
@@ -106,6 +112,47 @@ p {
     padding-right: 10%;
 }
 
-.contenidoA .esloganA .textoE .textoContenidoE div {
-    border: 1px solid black;
+.contenidoA .esloganA .textoE .textoContenidoE .frase .textareaE {
+    width: 100%;
+    height: 180px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE .fraseButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE .fraseButton .buttonE{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: #ffc400;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE .fraseButtonE{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE .fraseButtonE .buttonEG{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: #00c853;
+}
+
+.contenidoA .esloganA .textoE .textoContenidoE .fraseButtonE .buttonEC{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: #dc3545;
+    margin-top: 20px;
 }
