@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import NavbarAdmin from '../../components/NavbarAdmin';
 import '../../assets/styles/Admin/Admin.css';
-import { Button, TextareaAutosize } from '@mui/material';
-import { WidthFull } from '@mui/icons-material';
+import { Button, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 
 function Admin() {
 
@@ -15,6 +14,20 @@ function Admin() {
       const reader = new FileReader();
       reader.onload = () => {
         setSelectedImage(reader.result);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const [imageH, setImageH] = useState(null);
+
+  const imageHChange = (event) => {
+    const file = event.target.files[0];
+
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        setImageH(reader.result);
       };
       reader.readAsDataURL(file);
     }
@@ -51,6 +64,16 @@ function Admin() {
     // Aquí puedes agregar lógica para guardar el contenido editado si es necesario
     setEditHistoria(false);
   };
+
+  function createData(name, calories, fat, carbs, protein) {
+    return { name, calories, fat, carbs, protein };
+  }
+  
+  const rows = [
+    createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
+    createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
+    createData('Eclair', 262, 16.0, 24, 6.0),
+  ];
 
   return (
     <div className='admin-container'>
@@ -129,19 +152,19 @@ function Admin() {
         <div className='esloganA'>
           <div className='imageE'>
             <div className='imageSeleccionada'>
-              {selectedImage && (
-                <img src={selectedImage} alt="Imagen seleccionada" />
+              {imageH && (
+                <img src={imageH} alt="Imagen seleccionada" />
               )}
             </div>
             <div className='inputImage'>
               <input
                 type="file"
                 accept="image/*"
-                onChange={handleImageChange}
-                id="imageInput"
+                onChange={imageHChange}
+                id="imageInputH"
                 style={{ display: 'none' }}
               />
-              <label htmlFor="imageInput" className="custom-file-input">
+              <label htmlFor="imageInputH" className="custom-file-input">
                 Seleccionar una imagen
               </label>
             </div>
@@ -191,7 +214,34 @@ function Admin() {
           </div>
         </div>
 
-
+        <div className='valoresA'>
+            <h2>Valores</h2>
+            <TableContainer component={Paper}>
+              <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <TableHead>
+                  <TableRow>
+                    <TableCell align="right">Valor</TableCell>
+                    <TableCell align="right">Imagen</TableCell>
+                    <TableCell align="right">Descripcion</TableCell>
+                    <TableCell align="right">Acciones</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {rows.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                    >
+                      <TableCell align="right"></TableCell>
+                      <TableCell align="right"></TableCell>
+                      <TableCell align="right"></TableCell>
+                      <TableCell align="right"></TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+        </div>
 
 
 

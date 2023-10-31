@@ -156,3 +156,18 @@ p {
     background-color: #dc3545;
     margin-top: 20px;
 }
+
+.contenidoA .valoresA {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valoresA h2 {
+    margin-bottom: 20px;
+}
