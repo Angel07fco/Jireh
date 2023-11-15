@@ -15,6 +15,7 @@ import Recuperar from '../pages/Recuperar';
 import AvisoPrivacidad from '../pages/AvisoPrivacidad';
 import TerminosCondiciones from '../pages/TerminosCondiciones';
 import PoliticasCookies from '../pages/PoliticasCookies';
+import Desarrolladores from '../pages/Desarrolladores';
 import Default from '../pages/Default';
 
 import Admin from '../pages/Admin/Admin';
@@ -45,6 +46,7 @@ function Rutas() {
           <Route path='aviso-privacidad' element={<AvisoPrivacidad />} />
           <Route path='terminos-condiciones' element={<TerminosCondiciones />} />
           <Route path='politicas-cookies' element={<PoliticasCookies />} />
+          <Route path='desarrolladores' element={<Desarrolladores />} />
           <Route path='*' element={<Default />} />
 
           <Route path='admin' element={<Admin />} />

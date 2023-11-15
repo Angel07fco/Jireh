@@ -52,6 +52,7 @@ export default function Footer() {
             <Link href="/aviso-privacidad"><h5>Aviso de privacidad</h5></Link>
             <Link href="/terminos-condiciones"><h5>Terminos y condiciones</h5></Link>
             <Link href="/politicas-cookies"><h5>Politicas de Cookies</h5></Link>
+            <Link href="/desarrolladores"><h5>Desarrolladores</h5></Link>
           </div>
         </div>
       </div>
