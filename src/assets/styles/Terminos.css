@@ -1,0 +1,40 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.terminos {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section-terminos {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
