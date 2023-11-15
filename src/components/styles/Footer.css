@@ -111,7 +111,7 @@
 .piedepagina .pie-2 .subpie {
     width: 90%;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
