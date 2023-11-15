@@ -4,7 +4,7 @@ import Logo from '../assets/images/logo.png';
 import Whatsapp from '../assets/images/redes/whatsapp.webp.png';
 import Facebook from '../assets/images/redes/facebook.png';
 import Instagram from '../assets/images/redes/instagram.webp';
-import Button from '@mui/material/Button';
+import {Button, Link} from '@mui/material';
 
 export default function Footer() {
   return (
@@ -49,9 +49,9 @@ export default function Footer() {
             <h5>Todos los derechos reservados 2023 &copy;JIREH</h5>
           </div>
           <div className='subpie2'>
-            <h5>Desarrolladores</h5>
-            <h5>Aviso de privacidad</h5>
-            <h5>Terminos y condiciones</h5>
+            <Link href="/aviso-privacidad"><h5>Aviso de privacidad</h5></Link>
+            <Link href="/terminos-condiciones"><h5>Terminos y condiciones</h5></Link>
+            <Link href="/politicas-cookies"><h5>Politicas de Cookies</h5></Link>
           </div>
         </div>
       </div>

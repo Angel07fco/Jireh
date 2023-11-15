@@ -12,6 +12,9 @@ import Perfil from '../pages/Perfil';
 import Crearcuenta from '../pages/Crearcuenta';
 import Login from '../pages/Login';
 import Recuperar from '../pages/Recuperar';
+import AvisoPrivacidad from '../pages/AvisoPrivacidad';
+import TerminosCondiciones from '../pages/TerminosCondiciones';
+import PoliticasCookies from '../pages/PoliticasCookies';
 import Default from '../pages/Default';
 
 import Admin from '../pages/Admin/Admin';
@@ -39,6 +42,9 @@ function Rutas() {
           <Route path='crearcuenta' element={<Crearcuenta />} />
           <Route path='login' element={<Login />} />
           <Route path='recuperar' element={<Recuperar />} />
+          <Route path='aviso-privacidad' element={<AvisoPrivacidad />} />
+          <Route path='terminos-condiciones' element={<TerminosCondiciones />} />
+          <Route path='politicas-cookies' element={<PoliticasCookies />} />
           <Route path='*' element={<Default />} />
 
           <Route path='admin' element={<Admin />} />

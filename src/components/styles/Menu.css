@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 
 .contenedor {
     background-color: #fff;
@@ -86,6 +86,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.seccion-3 .sub2 .seccion-cart .material-symbols-outlined {
+    color: black;
 }
 
 .menu2 {
