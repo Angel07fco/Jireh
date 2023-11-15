@@ -153,7 +153,7 @@ function TerminosCondiciones() {
         </div>
 
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
-          <h5 style={{color: "#00A5cb"}}>Jireh se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.</h5>
+          <h5 style={{color: "#00A5cb"}}>Jireh se reserva el derecho de cambiar los términos de la presente Terminos y Condiciones en cualquier momento.</h5>
           <h5 style={{color: "#00A5cb"}}>Última actualización: 14/11/2023</h5>
         </div>
       
