@@ -1,0 +1,80 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.cookies {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section-cookies {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.my-table .th-1 {
+    width: 10%;
+}
+
+.my-table .th-2 {
+    width: 12%;
+}
+
+.my-table .th-3 {
+    width: 10%;
+}
+
+.my-table .th-4 {
+    width: 28%;
+}
+
+.my-table .th-5 {
+    width: 8%;
+}
+
+.my-table .th-6 {
+    width: 32%;
+}
+
+.my-table th, .my-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.my-table th {
+    background-color: #f2f2f2;
+}
