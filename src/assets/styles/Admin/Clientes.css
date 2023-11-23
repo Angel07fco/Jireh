@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.admin-clientes {
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoCli {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+
+.contenidoCli h1 {
+    text-align: center;
+}
+
+.contenidoCli .button-citas {
+    background-color: #00c853;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.contenidoCli .button-citasE {
+    background-color: #00c853;
+    margin-right: 10px;
+}
+
+.contenidoCli .button-citasEd {
+    margin-right: 10px;
+    border: 1px solid #00c853;
+    color: #00c853;
+}

@@ -26,6 +26,18 @@ import TiendaA from '../pages/Admin/Tienda';
 import VentasA from '../pages/Admin/Ventas';
 import DefaultA from '../pages/Admin/Default';
 
+import Valor from '../pages/Admin/PagesExt/Valor';
+import Slider from '../pages/Admin/PagesExt/Slider';
+import Noticia from '../pages/Admin/PagesExt/Noticia';
+import Cita from '../pages/Admin/PagesExt/Cita';
+import Agendar from '../pages/Admin/PagesExt/Agendar';
+import Cliente from '../pages/Admin/PagesExt/Cliente';
+import Service from '../pages/Admin/PagesExt/Service';
+import Product from '../pages/Admin/PagesExt/Product';
+import AddCliente from '../pages/Admin/PagesExt/AddCliente';
+import Addservices from '../pages/Admin/PagesExt/Addservices';
+import Addproduct from '../pages/Admin/PagesExt/Addproduct';
+
 function Rutas() {
   return (
     <div>
@@ -56,6 +68,19 @@ function Rutas() {
           <Route path='admin/tienda' element={<TiendaA />} />
           <Route path='admin/ventas' element={<VentasA />} />
           <Route path='admin/*' element={<DefaultA />} />
+
+          <Route path='admin/valor' element={<Valor />} />
+          <Route path='admin/slider' element={<Slider />} />
+          <Route path='admin/noticia' element={<Noticia />} />
+          <Route path='admin/cita' element={<Cita />} />
+          <Route path='admin/agendar' element={<Agendar />} />
+          <Route path='admin/cliente' element={<Cliente />} />
+          <Route path='admin/service' element={<Service />} />
+          <Route path='admin/product' element={<Product />} />
+          <Route path='admin/addcliente' element={<AddCliente />} />
+          <Route path='admin/addservices' element={<Addservices />} />
+          <Route path='admin/addproduct' element={<Addproduct />} />
+
       </Routes>
     </div>
   );

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.admin-agendar {
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoAgendar {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    height: 600px;
+}
+
+.contenidoAgendar h1 {
+    text-align: center;
+}
+
+.section-age {
+    width: 65%;
+    margin-left: 17.5%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.section-age .input {
+    margin-bottom: 30px;
+}
+
+.section-age .edi {
+    background-color: #00c853;
+}

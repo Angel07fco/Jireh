@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.admin-addservice {
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoAddservice {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.contenidoAddservice h1 {
+    text-align: center;
+}
+
+.section-formS {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 700px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.section-formS .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-formS .section1 .circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-formS .section1 .rectangulo {
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-formS .section2 {
+    padding: 30px;
+}
+
+.section-formS .section2 .input-new {
+    margin-top: 30px;
+}
