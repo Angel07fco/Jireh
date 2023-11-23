@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import '../assets/styles/Inicio.css';
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import '../../assets/styles/Inicio.css';
 import { useNavigate } from "react-router-dom";
-import Animales from '../assets/images/imagendeanimalitos.jpg';
-import Urgencias from '../assets/images/servicios/urgencia.jpg';
-import Consulta from '../assets/images/servicios/consulta.webp';
-import Domicilio from '../assets/images/servicios/domicilio.webp';
-import Vacunacion from '../assets/images/servicios/vacuncacion.png';
-import Desparacitacion from '../assets/images/servicios/desparacitacion.png';
-import LimpiezaDental from '../assets/images/servicios/limpiezadental.jpeg';
-import Cirugias from '../assets/images/servicios/cirgugias.png';
-import Ultrasonido from '../assets/images/servicios/ultrasonido.jpg';
-import Hospitalizacion from '../assets/images/servicios/hospitalizacion.png';
-import Logo from '../assets/images/logo.png';
-import Slider1 from '../assets/images/1.jpg'
+import Animales from '../../assets/images/imagendeanimalitos.jpg';
+import Urgencias from '../../assets/images/servicios/urgencia.jpg';
+import Consulta from '../../assets/images/servicios/consulta.webp';
+import Domicilio from '../../assets/images/servicios/domicilio.webp';
+import Vacunacion from '../../assets/images/servicios/vacuncacion.png';
+import Desparacitacion from '../../assets/images/servicios/desparacitacion.png';
+import LimpiezaDental from '../../assets/images/servicios/limpiezadental.jpeg';
+import Cirugias from '../../assets/images/servicios/cirgugias.png';
+import Ultrasonido from '../../assets/images/servicios/ultrasonido.jpg';
+import Hospitalizacion from '../../assets/images/servicios/hospitalizacion.png';
+import Logo from '../../assets/images/logo.png';
+import Slider1 from '../../assets/images/1.jpg'
+import Productos from '../../assets/audios/Productos.wav'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { Menu, MenuItem } from '@mui/material';
 
 export default function Inicio() {
 
@@ -27,26 +27,9 @@ export default function Inicio() {
     navigate('/servicios');
   };
 
-  const goToVisual = () => {
-    navigate('/visual');
-  };
-
-  const goToAuditiva = () => {
-    navigate('/auditiva');
-  };
-
-  const goToCargaRapida = () => {
-    navigate('/cargarapida');
-  };
-
-  const [servicios, setServicios] = useState(null);
-  const openServicios = Boolean(servicios);
-  const abrirServicios = (event) => {
-      setServicios(event.currentTarget);
-  };
-  const cerrarServicios = () => {
-      setServicios(null);
-  };
+  function play() {
+    new Audio(Productos).play()
+  }
 
   return (
     <div className='home'>
@@ -54,12 +37,7 @@ export default function Inicio() {
       <Navbar />
 
       <div style={{width: "80%", marginLeft: "10%", height: "100px", marginTop: "180px"}}>
-        <Button variant='contained' className="linkbutton" id="basic-button" onClick={abrirServicios}>Accesibilidad</Button>
-        <Menu id="basic-menu" anchorEl={servicios} open={openServicios} onClose={cerrarServicios}>
-            <MenuItem onClick={goToVisual}>Discapacidad visual</MenuItem>
-            <MenuItem onClick={goToAuditiva}>Discapacidad auditiva</MenuItem>
-            <MenuItem onClick={goToCargaRapida}>Carga rapida</MenuItem>
-        </Menu>
+        <Button variant='contained' className="linkbutton" id="basic-button" onClick={play}>Accesibilidad</Button>
       </div>
 
       <div className='contenido-inicio'>

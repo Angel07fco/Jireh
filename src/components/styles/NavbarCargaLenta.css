@@ -1,0 +1,154 @@
+.contenedor-lenta {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+.menu1-lenta {
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 120px;
+}
+
+.seccion {
+    flex: 1; 
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-1 {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-1 img {
+    width: 180px;
+    height: 70px;
+}
+
+.seccion-2 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-2 .buscador {
+    width: 80%;
+    height: 45px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.seccion-3 {
+    flex: 30%;
+}
+
+.seccion-3 .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.seccion-3 .sub1 {
+    list-style-type: none;
+    cursor: pointer;
+    width: 70%;
+    height: 30px;
+    color: #FFFFFF;
+}
+
+.seccion-3 .sub2 {
+    color: #fff;
+    width: 50%;
+    margin-left: 20%;
+    height: 70px;
+    margin-top: -10px;
+}
+
+.seccion-3 .sub2 .seccion-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seccion-3 .sub2 .seccion-cart .material-symbols-outlined {
+    color: black;
+}
+
+.menu2 {
+    width: 100%;
+    height: 50px;
+}
+
+.menu {
+    width: 80%;
+    margin-left: 10%;
+}
+  
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .links {
+    color: black;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85em;
+}
+
+.menu .linkbutton  {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+    margin-top: -2px;
+}
+
+.menu .linkbuttoncita  {
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+    margin-top: -2px;
+}
+
+p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu-item {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú desplegable */
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Raya intermedia entre elementos */
+  }
+  
+  .submenu-item:last-child {
+    border-bottom: none; /* Elimina la raya intermedia del último elemento */
+  }
+  
+  .menu:hover .submenu {
+    display: block; /* Mostrar el menú desplegable al pasar el mouse sobre el menú principal */
+  }

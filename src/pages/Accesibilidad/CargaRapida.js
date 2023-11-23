@@ -1,23 +1,21 @@
-import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import '../assets/styles/Inicio.css';
+import React from 'react';
+import NavbarCargaLenta from '../../components/NavbarCargaLenta';
+import FooterCargaRapida from '../../components/FooterCargaRapida';
+import '../../assets/styles/CargaRapida.css';
 import { useNavigate } from "react-router-dom";
-import Animales from '../assets/images/imagendeanimalitos.jpg';
-import Urgencias from '../assets/images/servicios/urgencia.jpg';
-import Consulta from '../assets/images/servicios/consulta.webp';
-import Domicilio from '../assets/images/servicios/domicilio.webp';
-import Vacunacion from '../assets/images/servicios/vacuncacion.png';
-import Desparacitacion from '../assets/images/servicios/desparacitacion.png';
-import LimpiezaDental from '../assets/images/servicios/limpiezadental.jpeg';
-import Cirugias from '../assets/images/servicios/cirgugias.png';
-import Ultrasonido from '../assets/images/servicios/ultrasonido.jpg';
-import Hospitalizacion from '../assets/images/servicios/hospitalizacion.png';
-import Logo from '../assets/images/logo.png';
-import Slider1 from '../assets/images/1.jpg'
-import TextField from '@mui/material/TextField';
+import Animales from '../../assets/images/imagendeanimalitos.jpg';
+import Urgencias from '../../assets/images/servicios/urgencia.jpg';
+import Consulta from '../../assets/images/servicios/consulta.webp';
+import Domicilio from '../../assets/images/servicios/domicilio.webp';
+import Vacunacion from '../../assets/images/servicios/vacuncacion.png';
+import Desparacitacion from '../../assets/images/servicios/desparacitacion.png';
+import LimpiezaDental from '../../assets/images/servicios/limpiezadental.jpeg';
+import Cirugias from '../../assets/images/servicios/cirgugias.png';
+import Ultrasonido from '../../assets/images/servicios/ultrasonido.jpg';
+import Hospitalizacion from '../../assets/images/servicios/hospitalizacion.png';
+import Logo from '../../assets/images/logo.png';
+import Slider1 from '../../assets/images/1.jpg'
 import Button from '@mui/material/Button';
-import { Menu, MenuItem } from '@mui/material';
 
 export default function Inicio() {
 
@@ -27,42 +25,12 @@ export default function Inicio() {
     navigate('/servicios');
   };
 
-  const goToVisual = () => {
-    navigate('/visual');
-  };
-
-  const goToAuditiva = () => {
-    navigate('/auditiva');
-  };
-
-  const goToCargaRapida = () => {
-    navigate('/cargarapida');
-  };
-
-  const [servicios, setServicios] = useState(null);
-  const openServicios = Boolean(servicios);
-  const abrirServicios = (event) => {
-      setServicios(event.currentTarget);
-  };
-  const cerrarServicios = () => {
-      setServicios(null);
-  };
-
   return (
     <div className='home'>
 
-      <Navbar />
+      <NavbarCargaLenta />
 
-      <div style={{width: "80%", marginLeft: "10%", height: "100px", marginTop: "180px"}}>
-        <Button variant='contained' className="linkbutton" id="basic-button" onClick={abrirServicios}>Accesibilidad</Button>
-        <Menu id="basic-menu" anchorEl={servicios} open={openServicios} onClose={cerrarServicios}>
-            <MenuItem onClick={goToVisual}>Discapacidad visual</MenuItem>
-            <MenuItem onClick={goToAuditiva}>Discapacidad auditiva</MenuItem>
-            <MenuItem onClick={goToCargaRapida}>Carga rapida</MenuItem>
-        </Menu>
-      </div>
-
-      <div className='contenido-inicio'>
+      <div className='contenido-inicio-carga'>
       
         <div>
           
@@ -81,10 +49,8 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className='servicios'>
-          <div className='img'>
-            <img src={Animales} alt="Ícono de inicio" />
-          </div>
+        <div className='servicios-carga'>
+          <img src={Animales} alt="Ícono de inicio" />
           <div className='listado'>
             <div className='servicios-1'>
               <h1>Servicios para el cuidado de tu mascota</h1>
@@ -195,102 +161,17 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className='citas'>
+        <div className='citas-carga'>
           <div className='contexto'>
             <h1>Agenda tu cita</h1>
             <h5>Calidad, compromiso y cuiado de tu mascota.</h5>
           </div>
-          <div className='formulario'>
-            <div>
-              <TextField
-                className='input1'
-                required
-                label="Nombre(s)"
-                placeholder='Por favor, ingresa tu(s) nombre(s)'
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                required
-                label="Apellidos"
-                id="standard-size-normal"
-                variant="standard"
-              />
-            </div>
-            <div>
-              <TextField
-                className='input1'
-                required
-                label="Telefono"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                label="Correo Electronico"
-                id="standard-size-normal"
-                variant="standard"
-              />
-            </div>
-            <div>
-              <TextField
-                className='input1'
-                required
-                label="Fecha"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                required
-                label="Motivo de la cita"
-                id="standard-size-normal"
-                variant="standard"
-              />
-            </div>
-            <div>
-              <TextField
-                className='input1'
-                required
-                label="Especie"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                label="Nombre de la mascota"
-                id="standard-size-normal"
-                variant="standard"
-              />
-            </div>
-            <Button href='/citas' className='button' variant="contained">Agendar cita</Button>
-          </div>
+          <Button href='/citas' className='button' variant="contained">Agendar cita</Button>
         </div>
 
         <div className='contacto'>
           <h1 className='title'>Contactanos</h1>
           <div className='contacto-section'>
-            <div className='formulario'>
-              <TextField
-                className='inputs'
-                required
-                label="Nombre(s)"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                className='inputs'
-                required
-                label="Nombre(s)"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <TextField
-                className='inputs'
-                required
-                label="Nombre(s)"
-                id="standard-size-normal"
-                variant="standard"
-              />
-              <Button href='/contacto' className='button' variant="contained">Enviar</Button>
-            </div>
             <div className='ubicacion'>
               <img src={Logo} alt="Ícono de inicio" />
               <div>
@@ -307,7 +188,7 @@ export default function Inicio() {
 
       </div>
 
-      <Footer />
+      <FooterCargaRapida />
 
     </div>
   )

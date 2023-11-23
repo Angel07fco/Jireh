@@ -38,7 +38,12 @@ import AddCliente from '../pages/Admin/PagesExt/AddCliente';
 import Addservices from '../pages/Admin/PagesExt/Addservices';
 import Addproduct from '../pages/Admin/PagesExt/Addproduct';
 
+import CargaRapida from '../pages/Accesibilidad/CargaRapida';
+import Visual from '../pages/Accesibilidad/Visual';
+import Auditiva from '../pages/Accesibilidad/Auditiva';
+
 function Rutas() {
+  
   return (
     <div>
       <Routes>
@@ -80,6 +85,11 @@ function Rutas() {
           <Route path='admin/addcliente' element={<AddCliente />} />
           <Route path='admin/addservices' element={<Addservices />} />
           <Route path='admin/addproduct' element={<Addproduct />} />
+
+          <Route path='cargarapida' element={<CargaRapida />} />
+          <Route path='visual' element={<Visual />} />
+          <Route path='auditiva' element={<Auditiva />} />
+
 
       </Routes>
     </div>
